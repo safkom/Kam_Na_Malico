@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #515151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+form {
+  width: 350px;
+  position: relative;
+}
+
+form .form-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+form input, form select {
+  font-family: inherit;
+  width: 550px;
+  outline: none;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4A4A4A;
+  text-indent: 40px;
+}
+
+form .btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color: rgb(94, 171, 197);
+  color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  white-space: nowrap;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.prijava{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  
+  /* background-color: blue;
+  padding: 0.9rem 2.5rem;
+  border-radius: 5px; */
+}
+
+.naslov{
+  color: white;
+  font-size: 30px;
+}
+
+.razred{
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  color: #4A4A4A;
+}
